@@ -1,0 +1,56 @@
+body {
+    background-color: #1a1b1c;
+    text-align: center;
+}
+li {
+    text-align: left;
+    color: darkcyan;
+}
+
+.text1 {
+    color: rgb(163, 163, 140);
+    font-family: algerian; 
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    background: #1a1b1c;
+    position: relative;
+    animation: text 10s 1;
+}
+
+.text2 {
+    color: cadetblue;
+    font-size: 30px;
+    font-family: algerian;
+    font-weight: 500;
+    letter-spacing: 6px;
+    margin-bottom: 40px;
+}
+
+@keyframes text{
+    0% {
+        color: darkgray;
+        margin-bottom: -40px;
+    }
+    30% {
+        letter-spacing: 25px;
+        margin-bottom: -40px;   
+    }
+    85% {
+        letter-spacing: 4px;
+    }
+}
+
+p {
+    font-size: larger;
+    font-stretch: wider;
+    color: #03e2ff;
+}
+
+iframe {
+    margin-top: 15px;
+    border: 1px solid #626a85;
+}
+
+
