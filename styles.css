@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background-color: #1a1b1c;
     text-align: center;
@@ -54,3 +55,32 @@ iframe {
 }
 
 
+=======
+body {
+    background-color: #1a1b1c;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    display: block;
+    margin: 0 auto;
+    width: 550px;
+    border-right: 10px solid #626a85;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+p {
+    font-size: larger;
+    font-stretch: wider;
+    color: #03e2ff;
+}
+
+iframe {
+    margin-top: 15px;
+    border: 1px solid #626a85;
+}
+
+
+>>>>>>> 95405340941459ae566736b081449e072366829d
