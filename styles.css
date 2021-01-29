@@ -8,7 +8,7 @@ li {
 }
 
 .text1 {
-    color: rgb(163, 163, 140);
+    color: rgb(241, 241, 163);
     font-family: algerian; 
     font-size: 40px;
     font-weight: 600;
@@ -21,16 +21,19 @@ li {
 
 .text2 {
     color: cadetblue;
-    font-size: 30px;
     font-family: algerian;
-    font-weight: 500;
-    letter-spacing: 6px;
-    margin-bottom: 40px;
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    background: #1a1b1c;
+    position: relative;
+    animation: text 10s 1;
 }
 
 @keyframes text{
     0% {
-        color: darkgray;
+        color: rgb(192, 217, 250);
         margin-bottom: -40px;
     }
     30% {
@@ -46,6 +49,12 @@ p {
     font-size: larger;
     font-stretch: wider;
     color: #03e2ff;
+}
+
+p:hover {
+    color: cornflowerblue;
+    background-color: rgb(20, 19, 19);
+    
 }
 
 iframe {
