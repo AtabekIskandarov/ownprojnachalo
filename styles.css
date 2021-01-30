@@ -1,5 +1,6 @@
 body {
-    background-color: #1a1b1c;
+    /* background-color: #1a1b1c; */
+    background: #0e1711;
     text-align: center;
 }
 li {
@@ -8,25 +9,25 @@ li {
 }
 
 .text1 {
-    color: rgb(241, 241, 163);
+    color: #34e89e;
     font-family: algerian; 
     font-size: 40px;
     font-weight: 600;
     letter-spacing: 3px;
     margin-bottom: 20px;
-    background: #1a1b1c;
+    background: #0e1711;
     position: relative;
     animation: text 10s 1;
 }
 
 .text2 {
-    color: cadetblue;
+    color: #108dc7;
     font-family: algerian;
     font-size: 35px;
     font-weight: 400;
     letter-spacing: 2px;
     margin-bottom: 25px;
-    background: #1a1b1c;
+    background: #0e1711;
     position: relative;
     animation: text 10s 1;
 }
