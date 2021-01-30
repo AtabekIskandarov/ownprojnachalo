@@ -5,11 +5,12 @@ body {
 }
 li {
     text-align: left;
-    color: darkcyan;
+    color: rgb(132, 211, 211);
+    font-size: larger;
 }
 
 .text1 {
-    color: #34e89e;
+    color: #418c8f;
     font-family: algerian; 
     font-size: 40px;
     font-weight: 600;
@@ -47,9 +48,9 @@ li {
 }
 
 p {
-    font-size: larger;
+    font-size: xx-large;
     font-stretch: wider;
-    color: #03e2ff;
+    color: #a2e2eb;
 }
 
 p:hover {
@@ -61,4 +62,22 @@ p:hover {
 iframe {
     margin-top: 15px;
     border: 1px solid #626a85;
+}
+
+li:before {
+    content: "\21DC ";
+    color: whitesmoke;
+}
+
+li::after {
+    content: "\21DD ";
+    color: whitesmoke;
+}
+
+p::before {
+    content: "\2505 ";
+}
+
+p::after {
+    content: "\2505 ";
 }
